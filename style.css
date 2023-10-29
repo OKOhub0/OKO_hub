@@ -1,0 +1,73 @@
+* {
+  margin: 1;
+  padding: 1;
+}
+body {
+  color: red;
+}
+p {
+  color: blue;
+}
+.pipa {
+  color: green;
+}
+i {
+  color: orange;
+}
+div b {
+  color: black;
+}
+div i {
+  color: red;
+}
+.main {
+  color: red;
+  text-decoration: none;
+}
+.main:hover {
+  color: blue;
+  text-decoration: overline;
+  text-decoration-color: red;
+  cursor: pointer;
+}
+.main:active {
+  text-decoration: line-through;
+  color: gray;
+}
+.main:visited {
+  text-decoration: line-through;
+  color: green;
+}
+input:focus {color: red;}
+input{
+  color: blue;
+  cursor: pointer;
+}
+#first {
+  background: url('https://avatars.mds.yandex.net/i?id=296c9434b99def86fc0afb5cf5c5923ea17ab228-10878189-images-thumbs&n=13') no-repeat center top;
+  height: 40vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#second {
+  height: 20px;
+}
+.m {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+}
+#block {
+  background: red;
+  height: 200px;
+  width: 200px;
+  border: 2px solid blue;
+  border-style: solid;
+  border-radius: 15px 60% 20%;
+  opacity: 0.9;
+  margin: 10px 40px;
+  padding: 10px 10px;
+}
